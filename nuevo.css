@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logo-principal {
+    width: 50px;
+    height: 50px;
+}
+/*HEADER Y NAV-BAR*/
+header{
+    position: fixed;
+    width: 100vw;
+}
+header, figure {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background-color: #1d1d1d;
+    color: white;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fondo {
+    background: url(nuevo/Formula\ 1\ F1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fondo h2 {
+    font-size: 50px;
+    color: white;
+}
+.banner {
+    background-color: #2229;
+    width: 100vw;
+    height: 92.5vh;
+    position: absolute;
+    top: 53px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box {
+    width: 500px;
+    height: 1200px;
+    background-color: aqua;
+}

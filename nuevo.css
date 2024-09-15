@@ -51,17 +51,46 @@ nav ul {
 .banner {
     background-color: #2229;
     width: 100vw;
-    height: 92.5vh;
-    position: absolute;
-    top: 53px;
+    height: 100vh;
+    position: static;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     
 }
-.box {
-    width: 500px;
-    height: 1200px;
-    background-color: aqua;
+/*SECCION DE NOTICIAS*/
+.noticias-principales {
+    padding: 50px 0;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 500px 500px 350px;
+    grid-template-areas:
+    "noticia-1 noticia-2 noticia-complemento"
+    "noticia-3 noticia-4 noticia-complemento"
+    "noticia-5 noticia-6 noticia-complemento";
+    justify-content: center;
+}
+.noticia-1 {grid-area: noticia-1;}
+.noticia-2 {grid-area: noticia-2;}
+.noticia-complemento {grid-area: noticia-complemento;}
+.noticia-3 {grid-area: noticia-3;}
+.noticia-4 {grid-area: noticia-4;}
+.noticia-complemento {grid-area: noticia-complemento;}
+.noticia-5 {grid-area: noticia-5;}
+.noticia-6 {grid-area: noticia-6;}
+.noticia-complemento {grid-area: noticia-complemento;}
+
+.noticia {
+    margin: 10px 15px;
+    padding: 2px;
+    border-radius: 9px;
+    border: #aaaf 2px solid;
+    text-align: center;
+}
+.noticia-img {
+    width: 100%;
+    height: 80%;
+    border-radius: 7px;
 }
